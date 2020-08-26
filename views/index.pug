@@ -2,4 +2,20 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Welcome to #{title} <br><br>
+    img(src='./../html/img/peel_potato.png'  alt='Peel_Potato' style='width:100px; height:100px;')
+
+  div(class='div-class', (click)='play()') 
+      a(href='#')
+        img(src="/img/Bake_seeds02.jpg" alt='Butternet_Squash_Seeds' style='width:100px; height:100px;') 
+      <br> Baked Butternet Squash Seeds (Aug 20, 2020) and Pic <br><br>
+    
+  ul
+    li Egg & Salmon wrap (July 30, 2020) and Pic <br><br>
+      a(href='#')
+        img(src="/img/wrap.jpg" alt='Wrap' style='width:100px; height:100px;')
+     
+    li Cream of Tomato Soup (June 10, 2020) <br><br>
+    li Risotto (July 12, 2020) <br><br>
+
+
